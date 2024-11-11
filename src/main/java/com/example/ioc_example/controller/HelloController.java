@@ -2,8 +2,6 @@ package com.example.ioc_example.controller;
 
 import com.example.ioc_example.component.HelloService;
 import com.example.ioc_example.dto.MessageConvertDto;
-import org.apache.coyote.Response;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
